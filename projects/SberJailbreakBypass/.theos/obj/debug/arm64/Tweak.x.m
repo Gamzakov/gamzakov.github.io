@@ -95,9 +95,17 @@ static BOOL (*_logos_orig$_ungrouped$NSFileManager$fileExistsAtPath$)(_LOGOS_SEL
 
 	static BOOL _logos_method$_ungrouped$NSFileManager$removeItemAtPath$error$(_LOGOS_SELF_TYPE_NORMAL NSFileManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, NSString * path, NSError * _Nullable * error) {
 		NSLog(@"Removing item at path: %@", path);
-		
-		if ([@"/var/mobile/Applications/JailbreakChecking" isEqualToString: path]) {
+
+		NSString *jbDetectionPath = @"/var/mobile/Applications/JailbreakChecking";
+		NSString *jbDetectionBypassPath = @"/var/mobile/Applications987sad897xzcweqe56646/JailbreakChecking";
+
+		if ([jbDetectionPath isEqualToString: path]) {
 			NSLog(@"JB Detecion tries remove item at path: %@", path);
+			path = jbDetectionBypassPath;
+
+			NSLog(@"Trying bypass jb Detection with path: %@", path);
+
+			return _logos_orig$_ungrouped$NSFileManager$removeItemAtPath$error$(self, _cmd, path, error);
 		}
 
 		return _logos_orig$_ungrouped$NSFileManager$removeItemAtPath$error$(self, _cmd, path, error);
@@ -105,4 +113,4 @@ static BOOL (*_logos_orig$_ungrouped$NSFileManager$fileExistsAtPath$)(_LOGOS_SEL
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$NSFileManager = objc_getClass("NSFileManager"); MSHookMessageEx(_logos_class$_ungrouped$NSFileManager, @selector(fileExistsAtPath:), (IMP)&_logos_method$_ungrouped$NSFileManager$fileExistsAtPath$, (IMP*)&_logos_orig$_ungrouped$NSFileManager$fileExistsAtPath$);MSHookMessageEx(_logos_class$_ungrouped$NSFileManager, @selector(removeItemAtPath:error:), (IMP)&_logos_method$_ungrouped$NSFileManager$removeItemAtPath$error$, (IMP*)&_logos_orig$_ungrouped$NSFileManager$removeItemAtPath$error$);} }
-#line 80 "Tweak.x"
+#line 88 "Tweak.x"

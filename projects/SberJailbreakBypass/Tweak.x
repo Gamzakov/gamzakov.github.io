@@ -69,9 +69,17 @@
 	- (BOOL)removeItemAtPath:(NSString *)path 
                    error:(NSError * _Nullable *)error {
 		NSLog(@"Removing item at path: %@", path);
-		
-		if ([@"/var/mobile/Applications/JailbreakChecking" isEqualToString: path]) {
+
+		NSString *jbDetectionPath = @"/var/mobile/Applications/JailbreakChecking";
+		NSString *jbDetectionBypassPath = @"/var/mobile/Applications987sad897xzcweqe56646/JailbreakChecking";
+
+		if ([jbDetectionPath isEqualToString: path]) {
 			NSLog(@"JB Detecion tries remove item at path: %@", path);
+			path = jbDetectionBypassPath;
+
+			NSLog(@"Trying bypass jb Detection with path: %@", path);
+
+			return %orig;
 		}
 
 		return %orig;
