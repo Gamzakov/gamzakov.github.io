@@ -1,0 +1,21 @@
+{
+    "packages": [
+        {
+            "SHA1": "7d0e5ff6cde2c9ddac8c2625f173876880ce58c1",
+            "MD5sum": "9a43dc01a3f0aab88028b39daa230ee7",
+            "SHA256": "d5d01b3cc7850558e16d8b337ae63046d91925358454c7741d93b2d2659f636f",
+            "Package": "com.gamzakovdev.sberjailbilbreakbypass",
+            "Version": "0.0.1-6+debug",
+            "Architecture": "iphoneos-arm",
+            "Maintainer": "Gamzakov <justgamzakov@gmail.com>",
+            "Installed-Size": 136,
+            "Depends": "mobilesubstrate",
+            "Filename": "./debs/com.gamzakovdev.sberjailbilbreakbypass_0.0.1-6+debug_iphoneos-arm.deb",
+            "Size": 5374,
+            "Section": "Tweaks",
+            "Description": "Jailbreak Detection bypass for ios 12 and above. (64 bit only)",
+            "Author": "Gamzakov <justgamzakov@gmail.com>",
+            "Name": "SberJailbreakBypass"
+        }
+    ]
+}

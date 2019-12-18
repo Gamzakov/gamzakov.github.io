@@ -31,7 +31,7 @@ done
 rm Packages
 rm Packages.bz2
 
-dpkg-scanpackages ./debs > Packages
+dpkg-scanpackages --multiversion ./debs > Packages
 bzip2 -fks Packages
 
 echo "Files added to git. Next step commit and then push."

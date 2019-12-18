@@ -14,3 +14,19 @@ Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
 Author: Aleksey Osipov
 Name: SberJailbreakBypass
 
+Package: com.gamzakovdev.sberjailbilbreakbypass
+Version: 0.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: Gamzakov <justgamzakov@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.gamzakovdev.sberjailbilbreakbypass_0.0.2-1+debug_iphoneos-arm.deb
+Size: 5386
+MD5sum: 4a88a8b86debc4c5b351054fb34fec96
+SHA1: 16b3f9a336f95a74b68ed987a050ce18947145b1
+SHA256: f186741826f4ac7f0400689d6852838710929dd7e2a85bfcfbbe107183f03206
+Section: Tweaks
+Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
+Author: Gamzakov <justgamzakov@gmail.com>
+Name: SberJailbreakBypass
+
