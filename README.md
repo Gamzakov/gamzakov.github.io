@@ -1,2 +1,1 @@
-# gamzakov.github.io
-Cydia repository
+# Gamzakov Cydia Repository
