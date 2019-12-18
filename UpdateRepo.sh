@@ -35,4 +35,3 @@ dpkg-scanpackages ./debs > Packages
 bzip2 -fks Packages
 
 echo "Files added to git. Next step commit and then push."
-git add --all
