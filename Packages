@@ -1,0 +1,16 @@
+Package: Sberbank Bypass
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: Aleksey Osipov
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.gamzakovdev.sberjailbilbreakbypass_0.0.1-5+debug_iphoneos-arm.deb
+Size: 6218
+MD5sum: 3b54104b5066720969b726e5fbc56471
+SHA1: edb0561343dc1f3b7b953e51db3f4febcd956310
+SHA256: 02598d44ab67d20634847b4b1cdf7ff64084b090409a0bce0f4ae6e9fee1a720
+Section: Tweaks
+Description: Обход проверки jailbreak для SberbankApp. (Может потребоваться переустановка приложения). 
+Author: Aleksey Osipov
+Name: SberJailbreakBypass
+
