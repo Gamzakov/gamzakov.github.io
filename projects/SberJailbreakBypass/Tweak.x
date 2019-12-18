@@ -65,4 +65,15 @@
 
 		return %orig;
 	}
+
+	- (BOOL)removeItemAtPath:(NSString *)path 
+                   error:(NSError * _Nullable *)error {
+		NSLog(@"Removing item at path: %@", path);
+		
+		if ([@"/var/mobile/Applications/JailbreakChecking" isEqualToString: path]) {
+			NSLog(@"JB Detecion tries remove item at path: %@", path);
+		}
+
+		return %orig;
+	}
 %end
