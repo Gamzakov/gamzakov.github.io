@@ -13,22 +13,19 @@ contains() {
     fi
 }
 
-for folder in ./projects/*
+for debsFolder in ./debs/*
 do
-    for debFolder in $folder/*
-    do
-        if contains $debFolder packages
-        then
-            if [ -f $debFolder/*.deb ]
-            then
-                for file in $debFolder/*.deb
-                do
-                    echo "cp ${file} to ./debs"
-                    cp $file ./debs/
-                done
-            fi
-        fi
-    done
+    if contains $debsFolder packages
+    then
+        echo "DebsFolder: ${debsFolder}"
+        for debFile in $debsFolder/*.deb
+        do
+            echo "DebFile: ${debFile}"
+            mv $debFile ./debs
+        done
+
+        rm -r $debsFolder
+    fi    
 done
 
 rm Packages

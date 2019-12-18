@@ -2,9 +2,9 @@ Package: com.gamzakovdev.sberjailbilbreakbypass
 Name: SberJailbreakBypass
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
 Maintainer: Aleksey Osipov
 Author: Aleksey Osipov
 Section: Tweaks
-Version: 0.0.1-2+debug
-Installed-Size: 168
+Version: 0.0.1-4+debug
+Installed-Size: 136
