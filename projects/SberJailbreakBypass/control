@@ -3,7 +3,7 @@ Name: SberJailbreakBypass
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
 Maintainer: Aleksey Osipov
 Author: Aleksey Osipov
 Section: Tweaks
