@@ -1,21 +1,21 @@
 {
     "packages": [
         {
-            "SHA1": "7d0e5ff6cde2c9ddac8c2625f173876880ce58c1",
-            "MD5sum": "9a43dc01a3f0aab88028b39daa230ee7",
-            "SHA256": "d5d01b3cc7850558e16d8b337ae63046d91925358454c7741d93b2d2659f636f",
-            "Package": "com.gamzakovdev.sberjailbilbreakbypass",
-            "Version": "0.0.1-6+debug",
+            "SHA1": "098a3a3967cc0fa8d21e19114406aed95afc1ff4",
+            "MD5sum": "c94f2694a28e9a625727f74c50d417de",
+            "SHA256": "ac2c1e0bf8ae2ae4121c602164d8a624d3a2fb7c4ca1d0e3300c4ee2edb4079c",
+            "Package": "com.gamzakovdev.sberbankbypass12",
+            "Version": "0.0-3",
             "Architecture": "iphoneos-arm",
             "Maintainer": "Gamzakov <justgamzakov@gmail.com>",
             "Installed-Size": 136,
-            "Depends": "mobilesubstrate",
-            "Filename": "./debs/com.gamzakovdev.sberjailbilbreakbypass_0.0.1-6+debug_iphoneos-arm.deb",
-            "Size": 5374,
+            "Depends": "firmware (>= 12.0), mobilesubstrate, preferenceloader",
+            "Filename": "./debs/SberbankBypass12_0.0.3_iphoneos-arm.deb",
+            "Size": 25452,
             "Section": "Tweaks",
             "Description": "Jailbreak Detection bypass for ios 12 and above. (64 bit only)",
             "Author": "Gamzakov <justgamzakov@gmail.com>",
-            "Name": "SberJailbreakBypass"
+            "Name": "SberbankBypass12"
         }
     ]
 }
