@@ -1,11 +1,11 @@
 {
     "packages": [
         {
-            "SHA1": "bd55954efc9e99fc25a28a1c368a24a18dff6271",
-            "MD5sum": "f8d469012ebe5eef0073c598761e1d97",
-            "SHA256": "4912f7bc27e9adcdc7fc4a447c3b81703d00e2838ad6a8d34e95691f9b519fb8",
+            "SHA1": "b1ea5f00d933a0ec1689144d088664861f4dc762",
+            "MD5sum": "f949418e89a3546245ea3d3444c213a1",
+            "SHA256": "48f2d0c1eaeb169f2a447c6af99fc1d0f16167dbb06344740ea593152562f892",
             "Package": "com.gamzakovdev.sberbankbypass12",
-            "Version": "0.0-3-1",
+            "Version": "0.0-3-2",
             "Architecture": "iphoneos-arm",
             "Maintainer": "Gamzakov <justgamzakov@gmail.com>",
             "Installed-Size": 136,
