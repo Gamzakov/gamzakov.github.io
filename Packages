@@ -43,3 +43,18 @@ Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
 Author: Gamzakov <justgamzakov@gmail.com>
 Name: SberbankBypass (iOS 12+)
 
+Package: com.gamzakovdev.sberbankbypass12
+Version: 0.0-3-3
+Architecture: iphoneos-arm
+Maintainer: Gamzakov <justgamzakov@gmail.com>
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/SberbankBypass12_0.0.3.3_iphoneos-arm.deb
+Size: 27224
+MD5sum: b333febdd4bead2eeaa87b1181f97456
+SHA1: 900000b7bf0bb22f27afc7141ac930637e9cde33
+SHA256: 166236853c1923d18747f64e28bc05b9628a4fa27854c56bbf1d73483aa12f92
+Section: Tweaks
+Description: Jailbreak Detection bypass for ios 12 and above. (64 bit only)
+Author: Gamzakov <justgamzakov@gmail.com>
+Name: SberbankBypass (iOS 12+)
+
